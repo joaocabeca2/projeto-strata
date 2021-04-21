@@ -1,0 +1,241 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    margin-right: 10px;
+    box-sizing: border-box;
+    line-height: 1.7;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    color: green;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 2em 0;
+    color: #787878;
+}
+p{
+    margin: 2em 0;
+}
+label, input, textarea{
+    display: block;
+}
+code{
+    background-color: rgba(206, 210, 214, 0.411);
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ul,ol{
+    padding: 0;
+    margin: 0 15px;
+}
+.main-header{
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-size: auto, cover;
+    background-position: bottom left;
+    
+}
+.firstheader-h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 22px;
+    margin: 50% 0 0 30%;
+    box-sizing: border-box;
+    color: rgba(179, 176, 176, 0.973);
+}
+.firstheader-h1 strong{
+    color: white;
+}
+.firstheader-h3{
+    margin: 8% 0 0 50%;
+}
+.firstheader-h3 a{
+    color: green;
+    transition-duration: 2s;
+}
+.firstheader-h3 a:hover{
+    color: rgba(110, 218, 146, 0.863);
+}
+.main-header img{
+    border-radius: 100%;
+    position: absolute;
+    top: 125px;
+    left: 55%;
+}
+.first-main{
+    width: 62%;
+    margin: 8% 0 0 38%;
+
+}
+.all-button{
+    border: 2px solid #666;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white; 
+    background-color: #21b860;
+}
+.all-button:hover{
+    background-color: rgba(64, 212, 101, 0.874);
+    transition-duration: 2s;
+
+}
+.secondsection{
+    width: 100%;
+}
+.main-article{
+    width: 49%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.main-article img{
+    border-radius: 10px;
+}
+.main-article h4{
+    margin: 0;
+    padding: 0;
+}
+/* grid */
+.thirdsection-main{
+    overflow: auto;
+}
+.thirdsection-main-first{
+    width: 65%;
+    float: left;
+    position: relative;
+}
+.thirdsection-main-second{
+    width: 30%;
+    float: left;
+    margin-left: 4%;
+}
+.thirdsection-main-first-0{
+    width: 50%;
+}
+#name{
+    background-color: #a5a2a2d0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 22px;
+}
+.thirdsection-main-first-1{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+#mail{
+    background-color: #a5a2a2d0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 22px;  
+    
+}
+#message{
+    width: 100%;
+    height: 150px;
+    background-color: #a5a2a2d0;
+    border: none;
+    border-radius: 5px;
+}
+.thirdsection-main-third{
+    margin-top: 15px;
+}
+#state{
+    margin: 15px 0 25px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: #a5a2a2d0;
+}
+#priority{
+    margin-bottom: 2px;
+}
+#send{
+    margin: 10px 0;
+
+}
+.fifthsection-code{
+    display: block;
+    
+}
+.fifthsection-blockquote{
+    border-left: 5px solid rgba(206, 210, 214, 0.411);
+    margin: 2em 0;
+    padding: 0.5em 1em;
+}
+.fifthsection-div{
+    overflow: hidden;
+    position: relative;
+}
+.fifthsection-div2 ul{
+}
+.fifthsection-div2-2{
+    float: right;
+    margin: 0 20%;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.fifthsection-alternate-ul{
+    list-style-type: none;
+    margin: 0;
+}
+.fifthsection-ul-icons{
+    float: right;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+}
+.fifthsection-ul-icons li{
+    display: inline-block;
+    font-size: 30px;
+    color: #21b860;
+}
+.firsttable{
+    width: 100%;
+    border-collapse: collapse;
+}
+.firsttable td{
+    padding: 0.75em;
+}
+.firsttable th{
+    background: #c7c3c3;
+    text-align: left;
+    border-bottom: 2px solid #787878;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.firsttable tr:nth-child(2n){
+    background-color: #e7e0e0;
+    border-bottom: 2px solid #787878;
+    border-top: 2px solid #787878;
+}
+.firsttable tr:last-child{
+    border-bottom: 2px solid #787878;
+}
+.seventhsection-main img{
+    width: 100%;
+    border-radius: 5px;
+}
+.seventhsection-second img{
+    width: 33%;
+    border-radius: 5px;
+}
+.eighthsection{
+    overflow: auto;
+    text-align: justify;
+}
+.eighthsection img{
+    float: left;
+}
